@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: teal;
+    color: #000000;
+    min-height: 90vh;
+    overflow-y: hidden;
+}
+
+header {
+    background-color: #949494;
+    text-align: center;
+    height: 10vh;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+nav ul li {
+    width: 100%;
+    display: inline;
+    text-align: center;
+    margin: .2em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+main {
+    height: 72vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 2em 4em;
+    padding: 1.5em;
+    height: 25vh;
+    width: 70vw;
+    background-color: rgba(0, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: .5em;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+section p {
+    font-size: 1em;
+    color: #000;
+}
+
+footer {
+    background-color: #949494;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 5vh;
+}
+
+footer p {
+    margin: 0 1em;
+}
