@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'Roboto';
     src: url(../../Fuentes/Roboto/Roboto-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
 }
 
 * {
@@ -11,14 +9,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F04829;
+    background-color: #176585;
     color: #000000;
-    min-height: 90vh;
+    min-height: 100vh;
     overflow-y: hidden;
 }
 
 header {
-    background-color: #EF6B28;
+    background-color: #27b1bf;
     text-align: center;
     height: 10vh;
     margin: 2em;
@@ -42,7 +40,9 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #F0353F;
+    background-color: #36cecc;
+    border: #558 1px solid;
+    border-radius: 3px;
     width: 50vw;
     display: flex;
     flex-direction: row;
@@ -62,10 +62,11 @@ a {
 }
 
 main {
-    height: 72vh;
+    height: 70vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-grow: 1;
     align-items: center;
 }
 
@@ -74,7 +75,8 @@ section {
     padding: 1.5em;
     height: 25vh;
     width: 70vw;
-    background-color: #F08E29;
+    background-color: #27b1bf;
+    border: 2px #333 solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,11 +95,16 @@ section p {
 }
 
 footer {
-    background-color: #F08048;
+    background-color: #c2e4cb;
     display: flex;
+    border-top: 1px #333 solid;
     justify-content: end;
     align-items: center;
+    width: 100vw;
     height: 5vh;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
 }
 
 footer p {
